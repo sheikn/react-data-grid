@@ -38,8 +38,7 @@
     "typecheck": "tsc -p tsconfig.all.json",
     "build-storybook": "build-storybook --quiet",
     "prepublishOnly": "npm install && npm run build && tsc && api-extractor run --local --verbose",
-    "postpublish": "git push --follow-tags origin HEAD",
-    "postinstall": "cd node_modules/react-data-grid && npm install && npm run build"
+    "postpublish": "git push --follow-tags origin HEAD"
   },
   "dependencies": {
     "clsx": "^1.1.1"
