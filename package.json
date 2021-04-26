@@ -29,7 +29,6 @@
   ],
   "sideEffects": false,
   "scripts": {
-    "install": "cd node_modules/react-data-grid && npm install && npm run build",
     "start": "start-storybook --quiet -p 6006",
     "build": "rollup --config --no-stdin",
     "test": "jest",
