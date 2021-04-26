@@ -37,7 +37,7 @@
     "eslint:fix": "npm run eslint -- --fix",
     "typecheck": "tsc -p tsconfig.all.json",
     "build-storybook": "build-storybook --quiet",
-    "postinstall": "npm run build"
+    "postinstall": "echo Starting build process && npm install && npm run build"
   },
   "dependencies": {
     "clsx": "^1.1.1"
