@@ -38,7 +38,7 @@
     "typecheck": "tsc -p tsconfig.all.json",
     "build-storybook": "build-storybook --quiet",
     "postinstall": "npm install && npm run build && tsc && api-extractor run --local --verbose",
-    "postpublish": "git push --follow-tags origin HEAD",
+    "postpublish": "git push --follow-tags origin HEAD"
   },
   "dependencies": {
     "clsx": "^1.1.1"
