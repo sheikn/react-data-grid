@@ -1,6 +1,5 @@
 /.linaria-cache
 /coverage
-/lib
 /node_modules
 /storybook-static
 /tmp
