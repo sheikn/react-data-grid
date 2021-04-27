@@ -8,9 +8,9 @@
     "react-data-grid",
     "data-grid"
   ],
-  "repository": "github:adazzle/react-data-grid",
+  "repository": "github:sheikn/react-data-grid",
   "bugs": {
-    "url": "https://github.com/adazzle/react-data-grid/issues"
+    "url": "https://github.com/sheik/react-data-grid/issues"
   },
   "type": "module",
   "exports": {
@@ -25,7 +25,8 @@
   "module": "./lib/bundle.js",
   "types": "./lib/index.d.ts",
   "files": [
-    "lib"
+    "lib",
+    "./src"
   ],
   "sideEffects": false,
   "scripts": {
@@ -37,7 +38,7 @@
     "eslint:fix": "npm run eslint -- --fix",
     "typecheck": "tsc -p tsconfig.all.json",
     "build-storybook": "build-storybook --quiet",
-    "postinstall": "echo Starting build process && npm install && npm run build"
+    "prepare": "echo Starting build process && npm install && npm run build"
   },
   "dependencies": {
     "clsx": "^1.1.1"
