@@ -37,7 +37,7 @@
     "eslint:fix": "npm run eslint -- --fix",
     "typecheck": "tsc -p tsconfig.all.json",
     "build-storybook": "build-storybook --quiet",
-    "prepare": "npm install && npm run build"
+    "publish": "npm install && npm run build"
   },
   "dependencies": {
     "clsx": "^1.1.1"
