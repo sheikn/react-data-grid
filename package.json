@@ -25,8 +25,7 @@
   "module": "./lib/bundle.js",
   "types": "./lib/index.d.ts",
   "files": [
-    "lib",
-    "./src"
+    "lib"
   ],
   "sideEffects": false,
   "scripts": {
@@ -38,7 +37,7 @@
     "eslint:fix": "npm run eslint -- --fix",
     "typecheck": "tsc -p tsconfig.all.json",
     "build-storybook": "build-storybook --quiet",
-    "prepare": "echo Starting build process && npm install && npm run build"
+    "prepare": "npm install && npm run build"
   },
   "dependencies": {
     "clsx": "^1.1.1"
